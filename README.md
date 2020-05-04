@@ -17,7 +17,7 @@ This was started on Visual Studios 2019 on 2020-05-03
 
 #### Websites that Helped Making This:
 http://www.codebind.com/cpp-tutorial/c-create-text-file-write/
-https://www.cplusplus.com/forum/beginner/64037/
+https://www.tutorialspoint.com/case-insensitive-string-comparison-in-cplusplus/
 
 ### Plans:
 Eventual name change.  
