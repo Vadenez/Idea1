@@ -10,14 +10,14 @@ Make a program that saves what text you type into a ".txt" file.
 Also, I have an increasing want to make this "cross platform", so it would work on Linus and Mac Computers in the future.
 
 ##### Reason:
-Cus why not.
+Cuz why not.
 
 ### Made:
 This was started on Visual Studios 2019 on 2020-05-03
 
 #### Websites that Helped Making This:
 http://www.codebind.com/cpp-tutorial/c-create-text-file-write/
-https://www.tutorialspoint.com/case-insensitive-string-comparison-in-cplusplus/
+https://www.tutorialspoint.com/case-insensitive-string-comparison-in-cplusplus
 
 ### Plans:
 Eventual name change.  
