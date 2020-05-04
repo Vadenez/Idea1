@@ -15,8 +15,9 @@ Cus why not.
 ### Made:
 This was started on Visual Studios 2019 on 2020-05-03
 
-#### Sources of Information:
+#### Websites that Helped Making This:
 http://www.codebind.com/cpp-tutorial/c-create-text-file-write/
+https://www.cplusplus.com/forum/beginner/64037/
 
 ### Plans:
 Eventual name change.  
