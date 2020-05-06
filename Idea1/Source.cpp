@@ -8,16 +8,23 @@ int main() {
     cout << "[Yes/No]" << endl;
     get = in(ans);
     cout << ans << endl;
-    if (nonsens(Y, get) == 1) {
-        //continue
-        cout << "Under Construction (Continues to .txt creator)";
-    }
-    else if (nonsens(N, get) == 1) {
-        //end program
-        cout << "Under Construction (exits program)";
-    }
-    else {
-        cout << "Under Construction (asks to try again, or exits)" << endl;
+
+    //Checks if ans is "yes"
+    while (nonsens(Y, get) == 1) {
+
+        if (nonsens(N, get) == 1) {
+
+            //Ends program
+            cout << "Since you don't want to create a text file, the program will close now" << endl;
+            //wait five seconds
+            cout << "Bye!";
+                return 0;
+        }
+        else {
+            cout << "You typed '" << get << "'," << endl << " Unfortunatly thats not 'Yes' or 'No'" << endl;
+
+            cout << "Under Construction (asks to try again, or exits)" << endl;
+        }
     }
     /*ofstream file;
     file.open("codebind.txt");
