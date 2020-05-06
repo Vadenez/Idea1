@@ -1,7 +1,12 @@
 #include <iostream>
 #include <fstream>
 #include <algorithm>
+#include <chrono>
+#include <thread>
+
 using namespace std;
+using namespace chrono;
+using namespace this_thread;
 
 //Used to check if strings are equal
 int nonsens(string known, string input) {

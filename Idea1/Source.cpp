@@ -2,21 +2,24 @@
 
 int main() {
     string ans, get;
+    int o;
     string Y = "yes";
     string N = "no";
+    this_thread::sleep_for(chrono::seconds(2));
     cout << "Would you like to create a text file (.txt)?" << endl;
     cout << "[Yes/No]" << endl;
     get = in(ans);
     cout << ans << endl;
-
+    o = nonsens(Y, get);
+    cout << o;
     //Checks if ans is "yes"
-    while (nonsens(Y, get) == 1) {
+    while (o == 1) {
 
         if (nonsens(N, get) == 1) {
 
             //Ends program
             cout << "Since you don't want to create a text file, the program will close now" << endl;
-            //wait five seconds
+            sleep_for(seconds(5));
             cout << "Bye!";
                 return 0;
         }
@@ -26,6 +29,7 @@ int main() {
             cout << "Under Construction (asks to try again, or exits)" << endl;
         }
     }
+    return 0;
     /*ofstream file;
     file.open("codebind.txt");
     file << "Please writr this text to a file.\n this text is written using C++\n";
