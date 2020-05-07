@@ -22,14 +22,24 @@ int nonsens(string known, string input) {
     //If not
     return 0;
 }
+
 int in(int get) {
+
     cout << ":" << '\t';
+
     cin >> get;
+
     return get;
+
 }
+
 string in(string get) {
+
     cout << ":" << '\t';
+
     cin >> get;
+
     return get;
+
 }
 #pragma once
