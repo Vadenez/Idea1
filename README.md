@@ -1,3 +1,6 @@
+#Notice:
+I'm having imense trouble, so I'm going to abandon this project for now. and see if I can figure this out at a later date - 2020-05-06
+
 # Idea1
 [![C++](https://img.shields.io/badge/language-C%2B%2B-%23f34b7d.svg?style=plastic)](https://en.wikipedia.org/wiki/C%2B%2B)
 [![License](https://img.shields.io/github/license/danielkrupinski/Osiris.svg?style=plastic)](LICENSE)
